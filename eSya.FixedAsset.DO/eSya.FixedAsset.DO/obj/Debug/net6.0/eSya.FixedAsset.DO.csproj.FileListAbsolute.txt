@@ -1,0 +1,11 @@
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\bin\Debug\net6.0\eSya.FixedAsset.DO.deps.json
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\bin\Debug\net6.0\eSya.FixedAsset.DO.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\bin\Debug\net6.0\eSya.FixedAsset.DO.pdb
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\eSya.FixedAsset.DO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\eSya.FixedAsset.DO.AssemblyInfoInputs.cache
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\eSya.FixedAsset.DO.AssemblyInfo.cs
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\eSya.FixedAsset.DO.csproj.CoreCompileInputs.cache
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\eSya.FixedAsset.DO.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\refint\eSya.FixedAsset.DO.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\eSya.FixedAsset.DO.pdb
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.DO\eSya.FixedAsset.DO\obj\Debug\net6.0\ref\eSya.FixedAsset.DO.dll

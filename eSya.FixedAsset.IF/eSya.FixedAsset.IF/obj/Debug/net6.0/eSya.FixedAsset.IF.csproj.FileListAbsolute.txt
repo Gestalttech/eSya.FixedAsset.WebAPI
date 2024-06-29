@@ -1,0 +1,15 @@
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\bin\Debug\net6.0\eSya.FixedAsset.IF.deps.json
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\bin\Debug\net6.0\eSya.FixedAsset.IF.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\bin\Debug\net6.0\eSya.FixedAsset.IF.pdb
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\bin\Debug\net6.0\eSya.FixedAsset.DO.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\bin\Debug\net6.0\eSya.FixedAsset.DO.pdb
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.csproj.AssemblyReference.cache
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.AssemblyInfoInputs.cache
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.AssemblyInfo.cs
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.csproj.CoreCompileInputs.cache
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.csproj.CopyComplete
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\refint\eSya.FixedAsset.IF.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\eSya.FixedAsset.IF.pdb
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.IF\eSya.FixedAsset.IF\obj\Debug\net6.0\ref\eSya.FixedAsset.IF.dll

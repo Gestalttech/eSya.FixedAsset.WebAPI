@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "HK6Fwq+o1zyVi8SWsabAPLY/yzWe7DjUJDVP8kYQiKQ=",
+  "Source": "eSya.FixedAsset.WebAPI",
+  "BasePath": "_content/eSya.FixedAsset.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "eSya.FixedAsset.WebAPI\\wwwroot",
+      "Source": "eSya.FixedAsset.WebAPI",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.FixedAsset.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\eSyaProjects2022\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\wwwroot\\Resources\\ar-EG.json",
+      "SourceId": "eSya.FixedAsset.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.FixedAsset.WebAPI",
+      "RelativePath": "Resources/ar-EG.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\ar-EG.json"
+    },
+    {
+      "Identity": "D:\\Projects\\eSyaProjects2022\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\wwwroot\\Resources\\en-US.json",
+      "SourceId": "eSya.FixedAsset.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\eSya.FixedAsset.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.FixedAsset.WebAPI",
+      "RelativePath": "Resources/en-US.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\en-US.json"
+    }
+  ]
+}
