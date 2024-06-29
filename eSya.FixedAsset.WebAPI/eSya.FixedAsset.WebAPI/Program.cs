@@ -56,8 +56,8 @@ builder.Services.AddCors(c =>
 
 
 builder.Services.AddScoped<ICommonDataRepository, CommonDataRepository>();
+builder.Services.AddSingleton<IAssetGroupRepository, AssetGroupRepository>();
 builder.Services.AddSingleton<IStringLocalizerFactory, JsonStringLocalizerFactory>();
-
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

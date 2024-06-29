@@ -277,3 +277,4 @@ D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\eSya.
 D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\obj\Debug\net6.0\eSya.FixedAsset.WebAPI.pdb
 D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\obj\Debug\net6.0\eSya.FixedAsset.WebAPI.genruntimeconfig.cache
 D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\obj\Debug\net6.0\ref\eSya.FixedAsset.WebAPI.dll
+D:\Projects\eSyaProjects2022\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\eSya.FixedAsset.WebAPI\obj\Debug\net6.0\eSya.FixedAsset.WebAPI.sourcelink.json
