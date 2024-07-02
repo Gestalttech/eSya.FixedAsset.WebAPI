@@ -26,7 +26,7 @@ namespace eSya.FixedAsset.DL.Repository
             {
                 using (var db = new eSyaEnterprise())
                 {
-                    var ds = db.GtEiitgcs.Where(x => x.ActiveStatus && x.ItemGroup== 1)
+                    var ds = await db.GtEiitgcs.Where(x => x.ActiveStatus && x.ItemGroup == 1)
                         .Join(db.GtEiitcts,
                          gc => gc.ItemCategory,
                          ct => ct.ItemCategory,
@@ -38,7 +38,10 @@ namespace eSya.FixedAsset.DL.Repository
                             
                         }).ToListAsync();
 
-                    return await ds;
+                    var distastgroups = ds.GroupBy(p => p.AssetGroup)
+                           .Select(g => g.First())
+                           .ToList();
+                    return  distastgroups;
                 }
             }
             catch (Exception ex)
@@ -52,8 +55,8 @@ namespace eSya.FixedAsset.DL.Repository
             {
                 using (var db = new eSyaEnterprise())
                 {
-                    var ds = db.GtEiitgcs.Where(x => x.ActiveStatus && x.ItemGroup == 1)
-                        .Join(db.GtEiitcts,
+                    var ds = await db.GtEiitgcs.Where(x => x.ActiveStatus && x.ItemGroup == 1)
+                       .Join(db.GtEiitcts,
                          gc => gc.ItemCategory,
                          ct => ct.ItemCategory,
                          (gc, ct) => new { gc, ct })
@@ -75,8 +78,10 @@ namespace eSya.FixedAsset.DL.Repository
                              ActiveStatus = b == null ? false : b.ActiveStatus
 
                          }).ToListAsync();
-
-                    return await ds;
+                    var distastsubgroup = ds.GroupBy(p => new { p.AssetGroup, p.AssetSubGroup })
+                      .Select(g => g.First())
+                      .ToList();
+                    return distastsubgroup;
 
                  
                 }
