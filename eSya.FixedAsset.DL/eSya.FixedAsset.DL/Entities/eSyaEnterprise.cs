@@ -20,6 +20,7 @@ namespace eSya.FixedAsset.DL.Entities
 
         public virtual DbSet<GtEcapcd> GtEcapcds { get; set; } = null!;
         public virtual DbSet<GtEcbsln> GtEcbslns { get; set; } = null!;
+        public virtual DbSet<GtEccncd> GtEccncds { get; set; } = null!;
         public virtual DbSet<GtEcfxag> GtEcfxags { get; set; } = null!;
         public virtual DbSet<GtEcfxam> GtEcfxams { get; set; } = null!;
         public virtual DbSet<GtEcfxdm> GtEcfxdms { get; set; } = null!;
@@ -117,6 +118,66 @@ namespace eSya.FixedAsset.DL.Entities
                 entity.Property(e => e.TorealCurrency).HasColumnName("TORealCurrency");
             });
 
+            modelBuilder.Entity<GtEccncd>(entity =>
+            {
+                entity.HasKey(e => e.Isdcode);
+
+                entity.ToTable("GT_ECCNCD");
+
+                entity.Property(e => e.Isdcode)
+                    .ValueGeneratedNever()
+                    .HasColumnName("ISDCode");
+
+                entity.Property(e => e.CountryCode)
+                    .HasMaxLength(4)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.CountryFlag).HasMaxLength(150);
+
+                entity.Property(e => e.CountryName).HasMaxLength(50);
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.CurrencyCode).HasMaxLength(4);
+
+                entity.Property(e => e.DateFormat)
+                    .HasMaxLength(15)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FormId)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .HasColumnName("FormID");
+
+                entity.Property(e => e.IsPinapplicable).HasColumnName("IsPINApplicable");
+
+                entity.Property(e => e.IsPoboxApplicable).HasColumnName("IsPOBoxApplicable");
+
+                entity.Property(e => e.MobileNumberPattern)
+                    .HasMaxLength(25)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.PincodePattern)
+                    .HasMaxLength(25)
+                    .IsUnicode(false)
+                    .HasColumnName("PINcodePattern");
+
+                entity.Property(e => e.PoboxPattern)
+                    .HasMaxLength(25)
+                    .IsUnicode(false)
+                    .HasColumnName("POBoxPattern");
+
+                entity.Property(e => e.ShortDateFormat)
+                    .HasMaxLength(15)
+                    .IsUnicode(false);
+            });
+
             modelBuilder.Entity<GtEcfxag>(entity =>
             {
                 entity.HasKey(e => new { e.AssetGroup, e.AssetSubGroup });
@@ -165,7 +226,7 @@ namespace eSya.FixedAsset.DL.Entities
 
             modelBuilder.Entity<GtEcfxdm>(entity =>
             {
-                entity.HasKey(e => new { e.Isdcode, e.AssetGroup, e.AssetSubGroup, e.EffectiveFrom });
+                entity.HasKey(e => new { e.Isdcode, e.AssetGroup, e.AssetSubGroup, e.EffectiveFrom, e.DepreciationMethod });
 
                 entity.ToTable("GT_ECFXDM");
 

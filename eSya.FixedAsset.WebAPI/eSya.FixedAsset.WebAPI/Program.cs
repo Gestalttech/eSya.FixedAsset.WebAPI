@@ -57,6 +57,7 @@ builder.Services.AddCors(c =>
 
 builder.Services.AddScoped<ICommonDataRepository, CommonDataRepository>();
 builder.Services.AddSingleton<IAssetGroupRepository, AssetGroupRepository>();
+builder.Services.AddSingleton<IAssetDepreciationRepository, AssetDepreciationRepository>();
 builder.Services.AddSingleton<IStringLocalizerFactory, JsonStringLocalizerFactory>();
 builder.Services.AddControllers();
 

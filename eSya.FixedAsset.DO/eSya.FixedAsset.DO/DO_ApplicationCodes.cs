@@ -18,4 +18,12 @@ namespace eSya.FixedAsset.DO
         public int BusinessKey { get; set; }
         public string LocationDescription { get; set; }
     }
+    public class DO_ISDCodes
+    {
+        public int Isdcode { get; set; }
+        public string CountryName { get; set; }
+        public string CountryFlag { get; set; }
+        public string CountryCode { get; set; }
+
+    }
 }

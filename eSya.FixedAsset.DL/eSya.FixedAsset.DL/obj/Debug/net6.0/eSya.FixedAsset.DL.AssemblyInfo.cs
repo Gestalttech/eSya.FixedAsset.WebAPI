@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eSya.FixedAsset.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef109407225d8cf9910990f9096ac6dec36dddf8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34fba89a8bfbe58854cc41a9e7e19958c8aa1c43")]
 [assembly: System.Reflection.AssemblyProductAttribute("eSya.FixedAsset.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eSya.FixedAsset.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
